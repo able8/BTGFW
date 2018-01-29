@@ -207,7 +207,7 @@ ShadowsocksR客户端下载地址[SSRforWindows](https://github.com/shadowsocksr
 在chrome右上角打开SwitchyOmega配置界面，如图所示：
 ![SwitchyOmega选项](https://raw.githubusercontent.com/siaimes/BlogImages/master/自建梯子教程/SwitchyOmega选项.jpg)
 
-情景模式中的auto switch配置如图所示：注意规则列表格式为AutoProxy，其网址为：
+情景模式中的auto switch配置如图所示：注意规则列表规则选择proxy，规则列表格式为AutoProxy，其网址为：
 
 ```html
 https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
@@ -254,6 +254,6 @@ Android客户端：[SSRforAndroid](https://github.com/shadowsocksr-backup/shadow
 
 # 6. 本帖永久地址
 
-博客：[https://blog.siaimes.me](https://blog.siaimes.me/2017/11/09/p6/)
+博客：[https://blog.siaimes.me](https://blog.siaimes.me/2017/11/09/p6.html)
 
 GitHub：[https://github.com](https://github.com/siaimes/BTGFW)
