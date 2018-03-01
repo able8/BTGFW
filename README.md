@@ -175,7 +175,7 @@ ShadowsocksR 一键管理脚本脚本 [v2.0.35]
 
 上面的步骤无误之后一键管理脚本就开始安装SSR了，过一会儿会提示下载文件，输入y后回车即可，然后继续等待。
 
-安装完成之后会显示服务器配置信息。包括ip、端口、密码、加密、协议、混淆等。当然这些都没必要记下来（如果Linux客户端应该是要手动输入的），配置客户端的时候只需要下面的SSR连接即可。
+安装完成之后会显示服务器配置信息。包括ip、端口、密码、加密、协议、混淆等。当然这些都没必要记下来（如果Linux客户端应该是要手动输入的），配置客户端的时候只需要Xshell最下面出现的<span id = "SSR链接">***SSR链接***</span>即可。
 
 ## 3.6 安装BBR和封禁垃圾端口
 
@@ -190,7 +190,8 @@ ShadowsocksR 一键管理脚本脚本 [v2.0.35]
 
 ShadowsocksR客户端下载地址[SSRforWindows](https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases)。SSR不需要安装就可以直接运行，但是会在当前目录生成许多运行时文件，所以建议拷贝ShadowsocksR-4.7.0-win文件夹到电脑里面，然后根据自己系统安装的.net情况运行ShadowsocksR-dotnet4.0.exe或者ShadowsocksR-dotnet2.0.exe。为了方便自己建立一个快捷方式到桌面或者设置开机自启即可。运行SSR之后可以在托盘区看到一个小飞机。
 
-复制服务器链接到剪贴板，然后右键小飞机剪贴板批量导入ssr://链接…，如图所示：
+复制服务器***[SSR链接](#SSR链接)***到剪贴板（在Xshell中：
+1. 输入 bash ssr.sh；2. 输入 5；3. 复制ssr链接），然后右键小飞机剪贴板批量导入ssr://链接…，如图所示：
 ![导入ssr连接](https://raw.githubusercontent.com/siaimes/BlogImages/master/自建梯子教程/导入ssr连接.jpg)
 
 初始的时候软件里会有一台免费的服务器，由于SSR作者已经没有维护了，是不能用的，需要将其删除掉，然后确定。如图所示：
